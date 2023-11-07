@@ -1,4 +1,4 @@
 # Site Odilon
-  Here I created a website for my school, using HTML5, CSS3 and JavaScript.
+  My colleague and I developed a website for our school, using HTML5, CSS3 and JavaScript tools.
 
   Link: https://odiloncorrea.netlify.app
