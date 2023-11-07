@@ -1,0 +1,695 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Poppins;
+    
+}
+.nav2{
+    margin: 0;
+    
+}
+.faixa-top{
+    background-color: rgb(54, 88, 187);
+    color: #fff;
+    margin: 0%;
+    height: 3rem;
+    display: flex;
+}
+.pqp{
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    display: flex;
+}
+.icon{
+    height: 1.75rem;
+    width: 1.75rem;
+    margin-right: 0.5em;
+    margin-left: 1em;
+   
+}
+#icon2{
+    padding: 0.2em;
+    margin-right: 0.5rem;
+    right: initial;
+}
+#email{
+    text-decoration: none;
+    color: white;
+}
+a.num{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar{
+    background-color: white;
+}
+.line{
+    content: '';
+    width: 100%;
+    height: 5px;
+    background-color: #0731bd;
+    position: absolute;
+    
+}
+.fab{
+    font-size: 1.7rem;
+    
+}
+body{
+    background-color: rgb(225, 225, 225);
+}
+.hm{
+    display: inline-flex;
+    padding-left: 40rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+header {
+    padding: 2.5px;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #007BFF;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: rgb(54, 88, 187);
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    width: 100%;
+    text-shadow: gold 0 0 0.2em;
+}
+
+a.num:hover{
+    color: rgb(190, 190, 190);
+}
+
+#email:hover{
+    color: rgb(190, 190, 190);
+}
+
+.caixa {
+    
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    margin-top: 15px;
+    text-decoration: none;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.bola {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 20px;
+}
+
+
+.caixa:hover {
+    transform: scale(1.1);
+    background-color: blue;
+}
+
+.caixa:hover .bola {
+    background-color: white;
+    color: blue;
+}
+
+.caixa:hover h2{
+    color: white;
+}
+
+.caixa h2{
+
+    color: gray;
+    margin: 0;
+    font-weight: bold;
+
+}
+
+.caixa2 {
+    
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 15px;
+    text-decoration: none;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.bola2 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 187, 0);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 20px;
+}
+
+
+.caixa2:hover {
+    transform: scale(1.1);
+    background-color: rgb(255, 174, 0);
+}
+
+.caixa2:hover .bola2 {
+    background-color: white;
+    color: rgb(255, 153, 0);
+}
+
+.caixa2:hover h2{
+    color: white;
+}
+.caixa2 h2{
+
+
+    color: gray;
+    margin: 0;
+    font-weight: bold;
+
+}
+
+.caixa3 {
+    
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    margin-top: 15px;
+    text-decoration: none;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.bola3 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(3, 182, 42);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 20px;
+}
+
+
+.caixa3:hover {
+    transform: scale(1.1);
+    background-color: rgb(3, 182, 42);
+}
+
+.caixa3:hover .bola3 {
+    background-color: white;
+    color: rgb(3, 182, 42);
+}
+
+.caixa3:hover h2{
+    color: white;
+}
+.caixa3 h2{
+
+
+    color: gray;
+    margin: 0;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width:765px) {
+    .caixa {
+        width: 100%; /* Ocupa toda a largura disponível */
+        height: 200px;
+        margin: 0; /* Remove a margem superior */
+    }
+
+    .bola {
+        width: 100px; /* Tamanho menor para a bola */
+        height: 100px;
+    }
+
+    .caixa h2 {
+        font-size: 16px; /* Tamanho de fonte menor */
+    }
+
+    .caixa2 {
+        width: 100%; /* Ocupa toda a largura disponível */
+        height: 200px;
+        margin: 10px; /* Remove a margem superior */
+    }
+
+    .bola2 {
+        width: 100px; /* Tamanho menor para a bola */
+        height: 100px;
+    }
+
+    .caixa2 h2 {
+        font-size: 16px; /* Tamanho de fonte menor */
+    }
+    .caixa3 {
+        width: 100%; /* Ocupa toda a largura disponível */
+        height: 200px;
+        margin: 0; /* Remove a margem superior */
+    }
+
+    .bola3 {
+        width: 100px; /* Tamanho menor para a bola */
+        height: 100px;
+    }
+
+    .caixa3 h2 {
+        font-size: 16px; /* Tamanho de fonte menor */
+    }
+
+    #img1{
+        width: 200px;
+        height: 500px;
+    }
+    
+    
+    #img2{
+        width: 200px;
+        height: 500px;
+    }
+
+    #img3{
+        width: 200px;
+        height: 500px;
+    }
+
+}
+@media screen and (max-width:650px) {
+    .caixa {
+        width: 100%; /* Ocupa toda a largura disponível */
+        height: 200px;
+        margin: 0; /* Remove a margem superior */
+    }
+
+    .bola {
+        width: 100px; /* Tamanho menor para a bola */
+        height: 100px;
+    }
+
+    .caixa h2 {
+        font-size: 16px; /* Tamanho de fonte menor */
+    }
+
+    .caixa2 {
+        width: 100%; /* Ocupa toda a largura disponível */
+        height: 200px;
+        margin: 10px; /* Remove a margem superior */
+    }
+
+    .bola2 {
+        width: 100px; /* Tamanho menor para a bola */
+        height: 100px;
+    }
+
+    .caixa2 h2 {
+        font-size: 16px; /* Tamanho de fonte menor */
+    }
+    .caixa3 {
+        width: 100%; /* Ocupa toda a largura disponível */
+        height: 200px;
+        margin: 0; /* Remove a margem superior */
+    }
+
+    .bola3 {
+        width: 100px; /* Tamanho menor para a bola */
+        height: 100px;
+    }
+
+    .caixa3 h2 {
+        font-size: 16px; /* Tamanho de fonte menor */
+    }
+
+    #img1{
+        width: 200px;
+        height: 400px;
+    }
+    
+    
+    #img2{
+        width: 200px;
+        height: 400px;
+    }
+
+    #img3{
+        width: 200px;
+        height: 400px;
+    }
+
+    
+}
+
+@media screen and (max-width:550px) {
+    .caixa {
+        width: 100%; /* Ocupa toda a largura disponível */
+        height: 200px;
+        margin: 0; /* Remove a margem superior */
+    }
+
+    .bola {
+        width: 100px; /* Tamanho menor para a bola */
+        height: 100px;
+    }
+
+    .caixa h2 {
+        font-size: 16px; /* Tamanho de fonte menor */
+    }
+
+    .caixa2 {
+        width: 100%; /* Ocupa toda a largura disponível */
+        height: 200px;
+        margin: 10px; /* Remove a margem superior */
+    }
+
+    .bola2 {
+        width: 100px; /* Tamanho menor para a bola */
+        height: 100px;
+    }
+
+    .caixa2 h2 {
+        font-size: 16px; /* Tamanho de fonte menor */
+    }
+    .caixa3 {
+        width: 100%; /* Ocupa toda a largura disponível */
+        height: 200px;
+        margin: 0; /* Remove a margem superior */
+    }
+
+    .bola3 {
+        width: 100px; /* Tamanho menor para a bola */
+        height: 100px;
+    }
+
+    .caixa3 h2 {
+        font-size: 16px; /* Tamanho de fonte menor */
+    }
+
+    #img1{
+        width: 200px;
+        height: 300px;
+    }
+    
+    
+    #img2{
+        width: 200px;
+        height: 300px;
+    }
+
+    #img3{
+        width: 200px;
+        height: 300px;
+    }
+
+    
+}
+
+@media screen and (max-width:450px) {
+    .caixa {
+        width: 100%; /* Ocupa toda a largura disponível */
+        height: 170px;
+        margin: 0; /* Remove a margem superior */
+    }
+
+    .bola {
+        width: 80px; /* Tamanho menor para a bola */
+        height: 80px;
+    }
+
+    .caixa h2 {
+        font-size: 12px; /* Tamanho de fonte menor */
+    }
+
+    .caixa2 {
+        width: 100%; /* Ocupa toda a largura disponível */
+        height: 170px;
+        margin: 10px; /* Remove a margem superior */
+    }
+
+    .bola2 {
+        width: 80px; /* Tamanho menor para a bola */
+        height: 80px;
+    }
+
+    .caixa2 h2 {
+        font-size: 12px; /* Tamanho de fonte menor */
+    }
+    
+    .caixa3 {
+        width: 100%; /* Ocupa toda a largura disponível */
+        height: 170px;
+        margin: 0; /* Remove a margem superior */
+    }
+
+    .bola3 {
+        width: 80px; /* Tamanho menor para a bola */
+        height: 80px;
+    }
+
+    .caixa3 h2 {
+        font-size: 12px; /* Tamanho de fonte menor */
+    }
+
+    #img1{
+        width: 150px;
+        height: 150px;
+    }
+    
+    
+    #img2{
+        width: 150px;
+        height: 150px;
+    }
+
+    #img3{
+        width: 150px;
+        height: 150px;
+    }
+
+    p{
+
+        font-size: 13px;
+    }
+
+    #email{
+        font-size: 13px;
+    }
+
+    #tel{
+        font-size: 13px;
+    }
+
+    .icon{
+        width: 20px;
+        height: 20px;
+    }
+
+    
+
+}
+
+
+@media screen and (max-width:365px) {
+    .caixa {
+        width: 100%; /* Ocupa toda a largura disponível */
+        height: 150px;
+        margin: 0; /* Remove a margem superior */
+    }
+
+    .bola {
+        width: 70px; /* Tamanho menor para a bola */
+        height: 70px;
+    }
+
+    .caixa h2 {
+        font-size: 11px; /* Tamanho de fonte menor */
+    }
+
+    .caixa2 {
+        width: 100%; /* Ocupa toda a largura disponível */
+        height: 150px;
+        margin: 10px; /* Remove a margem superior */
+    }
+
+    .bola2 {
+        width: 70px; /* Tamanho menor para a bola */
+        height: 70px;
+    }
+
+    .caixa2 h2 {
+        font-size: 11px; /* Tamanho de fonte menor */
+    }
+    
+    .caixa3 {
+        width: 100%; /* Ocupa toda a largura disponível */
+        height: 150px;
+        margin: 0; /* Remove a margem superior */
+    }
+
+    .bola3 {
+        width: 70px; /* Tamanho menor para a bola */
+        height: 70px;
+    }
+
+    .caixa3 h2 {
+        font-size: 11px; /* Tamanho de fonte menor */
+    }
+
+    #img1{
+        width: 150px;
+        height: 150px;
+    }
+    
+    
+    #img2{
+        width: 150px;
+        height: 150px;
+    }
+
+    #img3{
+        width: 150px;
+        height: 150px;
+    }
+
+    p{
+
+        font-size: 13px;
+    }
+
+    #email{
+        font-size: 12px;
+    }
+
+    #tel{
+        font-size: 12px;
+    }
+
+    .icon{
+        width: 15px;
+        height: 15px;
+    }
+
+   
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.info{
+    padding-top: 15px;
+}
+
+#img01{
+    width: 80%;
+    height: 80%;
+}
+
+
+#img02{
+    width: 70%;
+    height: 70%;
+}
+
+.conteudo {
+    display: flex;
+    align-items: flex-start; 
+}
+
+.conteudo img {
+    max-width: 50%; 
+    margin-right: 20px;
+    border: 0;
+}
+
+.conteudo p {
+    flex: 1;
+}
+
+a.nav-link{
+padding: 0%;
+margin: 7px;
+    
+}
+
+
+.navbar-toggler{
+    display: flex;
+   margin-bottom: 10px;
+    margin-left: auto;
+}
+
+.lua{
+    margin: 0%;
+    display: block;
+}
